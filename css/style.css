@@ -1,0 +1,135 @@
+
+.navbar .nav-link {
+    color: white !important; 
+  }
+  
+  .navbar .navbar-brand {
+    color: white !important; 
+  }
+  
+  .navbar-toggler-icon{
+    filter: invert(1); 
+  }
+  
+.main-color {
+    background-color: rgb(6, 0, 12) !important;
+}
+
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../image/gitar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #343a40; 
+    color: white;
+    height: 100vh; 
+  }
+  
+  .banner h1 {
+    font-size: 4rem; 
+  }
+  
+  .banner h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Menyesuaikan ukuran font pada layar kecil */
+  @media (max-width: 768px) {
+    .banner h1 {
+      font-size: 3rem; 
+    }
+    .banner h4 {
+      font-size: 1.25rem; 
+    }
+  }
+  
+  /* Menyempurnakan dropdown */
+  .select-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .select-wrapper select {
+    width: 75%; 
+    max-width: 400px; 
+    font-size: 1rem; 
+  }
+  
+  /* Responsif pada layar lebih kecil */
+  @media (max-width: 576px) {
+    .select-wrapper select {
+      width: 90%; 
+    }
+  }
+  
+
+.hovered-card {
+    transition: transform 0.3s ease-in-out; /
+}
+
+.hovered-card:hover {
+    transform: scale(1.05); 
+   
+}
+
+.icon-support {
+    width: 90px;
+    height: 70px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.content-follow{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.item {
+    height: 55vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../image/banner\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+}
+
+/* Style untuk efek hover */
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px); /* Mengangkat item ke atas */
+}
+
+.carousel-indicators {
+    height: 55vh;
+    background-size: cover;
+}
+
+.banner3 {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../image/banner\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
